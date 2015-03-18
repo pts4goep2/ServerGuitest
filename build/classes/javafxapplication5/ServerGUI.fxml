@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="output" prefHeight="400.0" prefWidth="515.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication5.ServerGUIController">
+   <children>
+      <TextArea fx:id="present" layoutX="8.0" layoutY="22.0" prefHeight="262.0" prefWidth="121.0" text="listaanwezig" />
+      <TextArea fx:id="input" layoutX="152.0" layoutY="215.0" prefHeight="87.0" prefWidth="334.0" text="textinput" />
+      <Button layoutX="407.0" layoutY="350.0" mnemonicParsing="false" onAction="#btnChat_Click" text="Button" />
+      <ListView fx:id="OutPut" layoutX="153.0" layoutY="14.0" prefHeight="186.0" prefWidth="334.0" />
+   </children>
+</AnchorPane>
